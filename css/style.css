@@ -1,4 +1,22 @@
 h1, h5{
     font-family: 'Poppins', sans-serif;
 }
-
+h5{
+    padding: 10px;
+}
+.headline-color{
+    color:#31A5AC;
+}
+.form-background{
+    background-color: #F8F8F8;
+}
+.input-color{
+    background-color: #DCDCDC;
+    border: none;
+}
+.button-color{
+    background-color: #59A5FF;
+    color: white;
+    border: none;
+    padding:  7px 25px;
+}

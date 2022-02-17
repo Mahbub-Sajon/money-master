@@ -1,22 +1,30 @@
+/* here is the font family  */
 h1, h5{
     font-family: 'Poppins', sans-serif;
 }
+/* all h5 tag's style is here  */
 h5{
     padding: 10px;
 }
+/* this is for heading color  */
 .headline-color{
     color:#31A5AC;
 }
+/* this is the background color  */
 .form-background{
     background-color: #F8F8F8;
 }
+/* this is for input field  */
 .input-color{
     background-color: #DCDCDC;
     border: none;
+    padding: 5px;
 }
+/* this is for button style  */
 .button-color{
     background-color: #59A5FF;
     color: white;
     border: none;
-    padding:  7px 25px;
+    border-radius: 5px;
+    padding: 7px 25px;
 }

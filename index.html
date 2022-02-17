@@ -19,7 +19,7 @@
 <body>
     <!-- header goes here  -->
     <header>
-        <h1 class=" headline-color text-center p-3">Coin Express <i class="fa-solid fa-sack-dollar"></i></h1>
+        <h1 class=" headline-color text-center p-3">Coin Express <i class="fa-duotone fa-bangladeshi-taka-sign"></i></h1>
     </header>
     <!-- this is the main section  -->
     <main>
@@ -39,15 +39,15 @@
                    <form class="form-background p-4" action="">
                     <div class="p-5">
                         <h5>Income</h5>
-                    <p>Income: <input class="input-color" type="text" placeholder="Please Enter Your Income"> </p>
+                    <p>Income: <input id="income-input" class="input-color" type="text" placeholder="Please Enter Your Income"> </p>
                     <h5>Expenses</h5>
-                    <p>Food: <input class="input-color" type="text" placeholder="Enter Your Food Expenses"> </p>
-                    <p>Rent: <input class="input-color" type="text" placeholder="Enter Your Rent Expenses"> </p>
-                    <p>Clothes: <input class="input-color" type="text" placeholder="Enter Your clothes Expenses"> </p>
-                    <button class="button-color">Calculate</button>
+                    <p>Food: <input id="food-expense-input" class="input-color" type="text" placeholder="Enter Your Food Expenses"> </p>
+                    <p>Rent: <input id="rent-expense-input" class="input-color" type="text" placeholder="Enter Your Rent Expenses"> </p>
+                    <p>Clothes: <input id="clothes-expense-input" class="input-color" type="text" placeholder="Enter Your clothes Expenses"> </p>
+                    <button id="calculate-button" class="button-color">Calculate</button>
                     <h5>Total Expenses: <span>00</span> bdt</h5>
                     <h5>Balance: <span>00</span> bdt</h5>
-                    <p>Save: <input class="input-color" type="text" placeholder="Saving perncentage"> % <button class="button-color"> Save </button></p>
+                    <p>Save: <input id="saving-input" class="input-color" type="text" placeholder="Saving perncentage"> % <button id="save-button" class="button-color"> Save </button></p>
                     <h5>Saving Amount: <span>00</span> bdt</h5>
                     <h5>Remaining Balance: <span>00</span> bdt</h5>
                     <!-- form ends here  -->

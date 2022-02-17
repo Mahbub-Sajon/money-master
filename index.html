@@ -40,17 +40,17 @@
                    <div class="form-background p-4" action="">
                     <div class="p-5">
                         <h5>Income</h5>
-                        <p class="error">Please enter a valid input!!!</p>
-                    <p>Income: <input id="income-input" class="input-color" type="text" placeholder="Please Enter Your Income"> </p>
+                        <p id="error-validation" class="error">Please enter a valid input!!!</p>
+                    <p>Income: <input id="income-input" class="input-color error-handle" type="text" placeholder="Please Enter Your Income"> </p>
                     <h5>Expenses</h5>
-                    <p>Food: <input id="food-expense-input" class="input-color" type="text" placeholder="Enter Your Food Expenses"> </p>
-                    <p>Rent: <input id="rent-expense-input" class="input-color" type="text" placeholder="Enter Your Rent Expenses"> </p>
-                    <p>Clothes: <input id="clothes-expense-input" class="input-color" type="text" placeholder="Enter Your clothes Expenses"> </p>
+                    <p>Food: <input id="food-expense-input" class="input-color error-handle" type="text" placeholder="Enter Your Food Expenses"> </p>
+                    <p>Rent: <input id="rent-expense-input" class="input-color error-handle" type="text" placeholder="Enter Your Rent Expenses"> </p>
+                    <p>Clothes: <input id="clothes-expense-input" class="input-color error-handle" type="text" placeholder="Enter Your clothes Expenses"> </p>
                     <button id="calculate-button" class="button-color">Calculate</button>
                     <p id="short-income" class="error">Your current income isn't enough for your required expenses!!!</p>
                     <h5>Total Expenses: <span id="expense-amount">00</span> bdt</h5>
                     <h5>Balance: <span id="balance-amount">00</span> bdt</h5>
-                    <p>Save: <input id="saving-input" class="input-color" type="text" placeholder="Saving percentage"> % <button id="save-button" class="button-color"> Save </button></p>
+                    <p>Save: <input id="saving-input" class="input-color error-handle" type="text" placeholder="Saving percentage"> % <button id="save-button" class="button-color"> Save </button></p>
                     <p id="short-balance" class="error">Your current balance isn't enough to save the required amount!!!</p>
                     <h5>Saving Amount: <span id="saving-amount-percent">00</span> bdt</h5>
                     <h5>Remaining Balance: <span id="final-balance">00</span> bdt</h5>
@@ -63,18 +63,6 @@
 
        </section>
     </main>
-    <!-- this is the footer  -->
-    <footer>
-    <div class="Error-section">
-      
-     
-    </div>
-    </footer>
-
-
-
-
-
     <!-- script is added here  -->
     <script src="js/app.js"></script>
 </body>

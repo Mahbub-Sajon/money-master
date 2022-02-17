@@ -25,9 +25,14 @@ function getValues(){
     const expenseAmountText = expenseAmount.innerText;
     expenseAmount.innerText = parseFloat(expenseAmountText)  + totalExpensesAmount;
 
+    // error condition 
     if(totalExpensesAmount>incomeAmount){
         document.getElementById('short-income').style.display = 'block';
     } 
+
+    else if( isNaN(totalExpensesAmount) == true ||  isNaN(incomeAmount)==true){
+        document.getElementById('error-validation').style.display = 'block';
+    }
 }
 // for perncentage saving 
 function savings (){
@@ -57,6 +62,10 @@ function savings (){
     // error condition 
     if(savingAmount>balance){
         document.getElementById('short-balance').style.display = 'block';
+    }
+    
+    else if( isNaN(savingAmount) == true ||  isNaN(balance)==true){
+        document.getElementById('error-validation').style.display = 'block';
     }
 
 // clearing the input field 

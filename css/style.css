@@ -31,6 +31,7 @@ h5{
     border-radius: 5px;
     padding: 7px 25px;
 }
+/* for error message  */
 .error{
     color : #fff;
     text-align: center;

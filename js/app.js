@@ -9,6 +9,8 @@ document.getElementById('calculate-button').addEventListener('click',function(ev
     const clothesExpense = document.getElementById('clothes-expense-input');
     const clothesExpenseAmount = clothesExpense.value;
     const totalExpensesAmount = parseFloat(foodExpenseAmount )  + parseFloat(rentExpenseAmount)  + parseFloat(clothesExpenseAmount);
-    console.log(totalExpensesAmount);
+    
    
 })
+
+// incomeAmount * (percentage / 100)

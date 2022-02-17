@@ -6,6 +6,9 @@ h1, h5{
 h5{
     padding: 10px;
 }
+.icon-color{
+    color: goldenrod;
+}
 /* this is for heading color  */
 .headline-color{
     color:#31A5AC;
